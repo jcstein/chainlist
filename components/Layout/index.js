@@ -34,7 +34,9 @@ export default function Layout({ changeTheme, theme, children }) {
             <div className={classes.copyCentered}>
               <Typography variant="h1" className={classes.chainListSpacing}>
                 <Link href="/">
-                  <span className={classes.helpingUnderline}>Chainlist</span>
+                  <span className={classes.helpingUnderline}>
+                    Chainlist: Ankr Public RPCs
+                  </span>
                 </Link>
               </Typography>
               <Typography variant="h2" className={classes.helpingParagraph}>
@@ -87,7 +89,7 @@ export default function Layout({ changeTheme, theme, children }) {
 
                 <a
                   className={`${classes.socialButton}`}
-                  href="https://discord.com/invite/buPFYXzDDd"
+                  href="https://discord.gg/wpQwj66kTy"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
